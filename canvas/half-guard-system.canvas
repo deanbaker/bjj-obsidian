@@ -1,0 +1,43 @@
+{
+	"nodes":[
+		{"id":"title","type":"text","text":"# Half Guard System\n\nColor Code:\n🟢 Strong Positions\n🟡 Working Positions\n🔴 Need Work\n🔵 Key Transitions\n📚 Resources","x":-400,"y":-400,"width":250,"height":160},
+		{"id":"half-guard","type":"file","file":"positions/guard/half-guard.md","x":0,"y":0,"width":200,"height":100},
+		{"id":"knee-shield","type":"text","text":"Knee Shield Half\n- Distance control\n- Strong defense\n- Setup for attacks","x":-300,"y":-200,"width":200,"height":100},
+		{"id":"deep-half","type":"text","text":"Deep Half\n- Under opponent\n- Sweeping position\n- Control both legs","x":300,"y":-200,"width":200,"height":100},
+		{"id":"lockdown","type":"text","text":"Lock Down\n- Double leg control\n- Electric chair setup\n- Strong control","x":-300,"y":200,"width":200,"height":100},
+		{"id":"z-guard","type":"text","text":"Z-Guard/93 Guard\n- Shin frame\n- Distance management\n- Attack entries","x":300,"y":200,"width":200,"height":100},
+		{"id":"sweeps-resource","type":"file","file":"resources/half-guard-sweeps.md","x":0,"y":-300,"width":200,"height":100},
+		{"id":"traditional-sweeps","type":"text","text":"# Traditional Sweeps\n\n- Old School 🟡\n- Plan B 🔵\n- Roll Under","x":-200,"y":-150,"width":150,"height":100},
+		{"id":"modern-sweeps","type":"text","text":"# Modern Sweeps\n\n- Lucas Leite 🟡\n- Coyote\n- John Wayne","x":200,"y":-150,"width":150,"height":100},
+		{"id":"deep-sweeps","type":"text","text":"# Deep Half Sweeps\n\n- Homer Simpson\n- Waiter Sweep\n- Double Under","x":500,"y":-150,"width":150,"height":100},
+		{"id":"lockdown-sweeps","type":"text","text":"# Lockdown Sweeps\n\n- Electric Chair 🟡\n- Whip Up\n- G-Roll","x":-500,"y":-150,"width":150,"height":100},
+		{"id":"subs","type":"text","text":"# Submissions\n- Kimura\n- Loop choke\n- Electric chair\n- Knee bar","x":200,"y":-300,"width":200,"height":120},
+		{"id":"transitions","type":"text","text":"# Key Transitions\n- Back take\n- Single leg\n- Butterfly guard\n- Deep half","x":0,"y":300,"width":200,"height":120},
+		{"id":"defense","type":"text","text":"# Defensive Focus\n- Prevent crossface\n- Maintain frames\n- Inside position\n- Hip movement","x":-200,"y":-300,"width":200,"height":120}
+	],
+	"edges":[
+		{"id":"half-knee","fromNode":"half-guard","fromSide":"left","toNode":"knee-shield","toSide":"right","label":"frame"},
+		{"id":"half-deep","fromNode":"half-guard","fromSide":"right","toNode":"deep-half","toSide":"left","label":"dive under"},
+		{"id":"half-lock","fromNode":"half-guard","fromSide":"left","toNode":"lockdown","toSide":"right","label":"leg control"},
+		{"id":"half-z","fromNode":"half-guard","fromSide":"right","toNode":"z-guard","toSide":"left","label":"create distance"},
+		{"id":"trad-guard","fromNode":"traditional-sweeps","fromSide":"bottom","toNode":"half-guard","toSide":"top","label":"basic"},
+		{"id":"modern-guard","fromNode":"modern-sweeps","fromSide":"bottom","toNode":"half-guard","toSide":"top","label":"advanced"},
+		{"id":"deep-sweep-conn","fromNode":"deep-sweeps","fromSide":"left","toNode":"deep-half","toSide":"right"},
+		{"id":"lock-sweep-conn","fromNode":"lockdown-sweeps","fromSide":"right","toNode":"lockdown","toSide":"left"},
+		{"id":"resource-link","fromNode":"sweeps-resource","fromSide":"bottom","toNode":"half-guard","toSide":"top","label":"study guide"},
+		{"id":"resource-trad","fromNode":"sweeps-resource","fromSide":"left","toNode":"traditional-sweeps","toSide":"top","label":"details"},
+		{"id":"resource-modern","fromNode":"sweeps-resource","fromSide":"right","toNode":"modern-sweeps","toSide":"top","label":"details"}
+	],
+	"groups":[
+		{
+			"id":"sweep-systems",
+			"title":"Sweep Categories",
+			"nodes":["traditional-sweeps","modern-sweeps","deep-sweeps","lockdown-sweeps"]
+		},
+		{
+			"id":"resources",
+			"title":"Study Materials",
+			"nodes":["sweeps-resource","defense"]
+		}
+	]
+}

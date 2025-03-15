@@ -1,0 +1,241 @@
+{
+  "main": {
+    "id": "cd136a27706939bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "c09a9acf5f2ac2cb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb4729ce37f7b6ea",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "canvas/half-guard-system-grid.canvas",
+                "viewState": {
+                  "x": 107.25777027027031,
+                  "y": 120.88057432432439,
+                  "zoom": -0.37926126995331405
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "half-guard-system-grid"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5079013e5bec7e18",
+    "type": "split",
+    "children": [
+      {
+        "id": "53cc054f648eec3d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6f0a5526a4eb60af",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "608b6ed1138f4288",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#training",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ee146febbefaf5d1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e8044051b68ce686",
+    "type": "split",
+    "children": [
+      {
+        "id": "8cab8a9a01a6f596",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dfa0542c91e89000",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "positions/guard/half-guard.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for half-guard"
+            }
+          },
+          {
+            "id": "73d1ae70675caafe",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "canvas/half-guard-system-grid.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from half-guard-system-grid"
+            }
+          },
+          {
+            "id": "8a059765381776b8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "0fef66d36710b685",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "positions/guard/half-guard.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of half-guard"
+            }
+          },
+          {
+            "id": "dfa1548a29d7ff44",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "cae2958f34d0232b",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-spaced-repetition:Review flashcards": false
+    }
+  },
+  "active": "fb4729ce37f7b6ea",
+  "lastOpenFiles": [
+    "canvas/navigation-guide.canvas",
+    "canvas/position-map.canvas",
+    "canvas/side-control-mount-transition.canvas",
+    "training-logs/2025-03-15-training.md",
+    "canvas/test-navigation.canvas",
+    "Untitled Kanban.md",
+    "README.md",
+    "dashboard.md",
+    "_templates/training-log-template.md",
+    "main-positions.md",
+    "techniques/transitions/side-control-to-mount.md",
+    "_templates/technique-template.md",
+    "_templates/add-partner-details.md",
+    "training-logs/Untitled 1.md",
+    "Untitled.md",
+    "positions/back-control/back-control.md",
+    "Untitled 1.md",
+    "_templates/resource-template.md",
+    "resources/half-guard-sweeps.md",
+    "_templates/competition-template.md",
+    "canvas/half-guard-system-grid.canvas",
+    "canvas/half-guard-system.canvas",
+    "canvas/half-guard-sweeps-study.canvas",
+    "canvas/main-positions.canvas",
+    "positions/guard/closed-guard.md",
+    "positions/guard/half-guard.md",
+    "positions/side-control/side-control.md",
+    "positions/mount/mount.md",
+    "Welcome.md",
+    "_templates/position-template.md",
+    "canvas",
+    "resources",
+    "competition",
+    "training-logs",
+    "techniques/transitions",
+    "techniques/sweeps",
+    "techniques/submissions",
+    "techniques",
+    "positions/side-control",
+    "positions/mount"
+  ]
+}

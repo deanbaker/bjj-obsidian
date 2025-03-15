@@ -1,0 +1,48 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "_templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": true,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "training-logs",
+      "template": "_templates/training-log-template.md"
+    },
+    {
+      "folder": "positions",
+      "template": "_templates/position-template.md"
+    },
+    {
+      "folder": "techniques",
+      "template": "_templates/technique-template.md"
+    },
+    {
+      "folder": "competition",
+      "template": "_templates/competition-template.md"
+    },
+    {
+      "folder": "resources",
+      "template": "_templates/resource-template.md"
+    }
+  ],
+  "syntax_highlighting": true,
+  "enabled_templates_hotkeys": [
+    "_templates/training-log-template",
+    "_templates/position-template",
+    "_templates/technique-template",
+    "_templates/competition-template",
+    "_templates/resource-template"
+  ],
+  "startup_templates": [],
+  "enable_ribbon_icon": true
+}

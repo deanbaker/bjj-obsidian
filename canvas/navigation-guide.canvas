@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"title","type":"text","text":"# BJJ Notes Navigation Guide\n\n## How to Use Canvas Navigation\n\n🔍 This canvas shows how to navigate your BJJ notes system","x":-500,"y":-500,"width":300,"height":150},
+		{"id":"preview-guide","type":"text","text":"# 📑 File Preview\n\n1. Click any node to see preview\n2. Drag corners to resize\n3. Use scroll in preview to read\n4. Click outside to minimize","x":-500,"y":-300,"width":300,"height":200},
+		{"id":"full-note-guide","type":"text","text":"# 📖 Opening Full Notes\n\n1. Cmd/Ctrl + Click title to open in new tab\n2. Right-click → 'Open in new tab'\n3. Click expand icon in preview\n4. Alt + Click for current tab (if enabled)","x":-500,"y":-50,"width":300,"height":200},
+		{"id":"navigation-tips","type":"text","text":"# 🧭 Navigation Tips\n\n1. Use main canvas as home base\n2. Sub-canvases for detailed positions\n3. Keep canvas visible in split view\n4. Use tabs for detailed study","x":-500,"y":200,"width":300,"height":200},
+		{"id":"sample-position","type":"file","file":"positions/guard/half-guard.md","x":0,"y":-200,"width":250,"height":150},
+		{"id":"sample-preview","type":"text","text":"👈 Try it!\n\n1. Click the Half Guard note\n2. Try resizing preview\n3. Cmd+Click to open fully\n4. Practice different methods","x":300,"y":-200,"width":200,"height":150},
+		{"id":"canvas-types","type":"text","text":"# 🗺️ Canvas Types\n\n1. Main Positions Map\n2. Position-Specific Systems\n3. Technique Chains\n4. Drilling Sequences","x":0,"y":0,"width":250,"height":150},
+		{"id":"canvas-links","type":"text","text":"# 🔗 Canvas Organization\n\n[[main-positions]]\n[[half-guard-system]]\n[[side-control-mount-transition]]","x":300,"y":0,"width":250,"height":150},
+		{"id":"node-types","type":"text","text":"# 📌 Node Types\n\n📄 File Nodes - Link to notes\n💭 Text Nodes - Quick reference\n🔄 Group Nodes - Related items","x":0,"y":200,"width":250,"height":150},
+		{"id":"workflow","type":"text","text":"# 🔄 Suggested Workflow\n\n1. Start at main positions\n2. Drill down to specifics\n3. Use split views for study\n4. Take notes while watching videos","x":300,"y":200,"width":250,"height":150}
+	],
+	"edges":[
+		{"id":"preview-sample","fromNode":"preview-guide","fromSide":"right","toNode":"sample-position","toSide":"left","label":"Try Here"},
+		{"id":"full-sample","fromNode":"full-note-guide","fromSide":"right","toNode":"sample-position","toSide":"left","label":"Practice"},
+		{"id":"canvas-workflow","fromNode":"canvas-types","fromSide":"right","toNode":"workflow","toSide":"left","label":"Use Together"},
+		{"id":"nav-canvas","fromNode":"navigation-tips","fromSide":"right","toNode":"canvas-links","toSide":"left","label":"Navigate Between"}
+	],
+	"groups":[
+		{
+			"id":"basics",
+			"title":"Basic Navigation",
+			"nodes":["preview-guide","full-note-guide"]
+		},
+		{
+			"id":"advanced",
+			"title":"Advanced Usage",
+			"nodes":["canvas-types","canvas-links","node-types","workflow"]
+		}
+	]
+}

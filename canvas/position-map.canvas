@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"positions","type":"text","text":"# BJJ Position Map\n\nColor Code:\n🟢 Strong\n🟡 Working On\n🔴 Need Work","x":-340,"y":-300,"width":250,"height":160},
+		{"id":"mount","type":"text","text":"Mount","x":0,"y":0,"width":100,"height":60},
+		{"id":"back","type":"text","text":"Back Control","x":200,"y":0,"width":100,"height":60},
+		{"id":"guard","type":"text","text":"Guard","x":-265,"y":60,"width":100,"height":60},
+		{"id":"side","type":"text","text":"Side Control","x":50,"y":160,"width":100,"height":60}
+	],
+	"edges":[
+		{"id":"guard-mount","fromNode":"guard","fromSide":"top","toNode":"mount","toSide":"bottom"},
+		{"id":"mount-back","fromNode":"mount","fromSide":"right","toNode":"back","toSide":"left"},
+		{"id":"guard-side","fromNode":"guard","fromSide":"right","toNode":"side","toSide":"left"}
+	]
+}

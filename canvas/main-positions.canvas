@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"closed-guard","type":"file","file":"positions/guard/closed-guard.md","x":-400,"y":0,"width":200,"height":100},
+		{"id":"side-control","type":"file","file":"positions/side-control/side-control.md","x":0,"y":0,"width":200,"height":100},
+		{"id":"half-guard","type":"text","text":"Half Guard","x":-200,"y":200,"width":150,"height":60},
+		{"id":"turtle","type":"text","text":"Turtle","x":200,"y":200,"width":150,"height":60},
+		{"id":"side-mount-trans","type":"file","file":"techniques/transitions/side-control-to-mount.md","x":0,"y":-130,"width":200,"height":60},
+		{"id":"kob","type":"text","text":"Knee on Belly","x":250,"y":0,"width":150,"height":60},
+		{"id":"back","type":"file","file":"positions/back-control/back-control.md","x":480,"y":-320,"width":200,"height":100},
+		{"id":"mount","type":"file","file":"positions/mount/mount.md","x":0,"y":-400,"width":200,"height":100},
+		{"id":"title","type":"text","text":"# BJJ Position Map\n\nColor Code:\n🟢 Strong\n🟡 Working On\n🔴 Need Work","x":-500,"y":-430,"width":250,"height":220}
+	],
+	"edges":[
+		{"id":"guard-side","fromNode":"closed-guard","fromSide":"right","toNode":"side-control","toSide":"left","label":"pass"},
+		{"id":"side-mount","fromNode":"side-control","fromSide":"top","toNode":"mount","toSide":"bottom","label":"advance"},
+		{"id":"mount-back","fromNode":"mount","fromSide":"right","toNode":"back","toSide":"left","label":"take back"},
+		{"id":"side-kob","fromNode":"side-control","fromSide":"right","toNode":"kob","toSide":"left","label":"transition"},
+		{"id":"kob-mount","fromNode":"kob","fromSide":"top","toNode":"mount","toSide":"right","label":"advance"},
+		{"id":"guard-half","fromNode":"closed-guard","fromSide":"bottom","toNode":"half-guard","toSide":"top","label":"open"},
+		{"id":"half-side","fromNode":"half-guard","fromSide":"right","toNode":"side-control","toSide":"bottom","label":"pass"},
+		{"id":"side-turtle","fromNode":"side-control","fromSide":"bottom","toNode":"turtle","toSide":"top","label":"escape"},
+		{"id":"turtle-back","fromNode":"turtle","fromSide":"right","toNode":"back","toSide":"bottom","label":"take back"}
+	]
+}

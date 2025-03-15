@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"side-control","type":"file","file":"positions/side-control/side-control.md","x":-200,"y":0,"width":200,"height":100},
+		{"id":"transition","type":"file","file":"techniques/transitions/side-control-to-mount.md","x":0,"y":-150,"width":200,"height":80},
+		{"id":"details","type":"text","text":"# Transition Details\n\n- Maintain pressure\n- Control frames\n- Time with breathing\n- Watch for bridges","x":0,"y":-480,"width":250,"height":120},
+		{"id":"counters","type":"text","text":"# Common Counters\n- Bridge\n- Frame\n- Shrimp\n- Half-guard recovery","x":420,"y":-320,"width":200,"height":120},
+		{"id":"mount","type":"file","file":"positions/mount/mount.md","x":280,"y":20,"width":200,"height":100},
+		{"id":"kob","type":"text","text":"Knee on Belly","x":0,"y":240,"width":150,"height":60}
+	],
+	"edges":[
+		{"id":"side-to-trans","fromNode":"side-control","fromSide":"top","toNode":"transition","toSide":"left","label":"initiates"},
+		{"id":"trans-to-mount","fromNode":"transition","fromSide":"right","toNode":"mount","toSide":"top","label":"completes"},
+		{"id":"alt-path","fromNode":"side-control","fromSide":"bottom","toNode":"kob","toSide":"left","label":"alternative"},
+		{"id":"kob-to-mount","fromNode":"kob","fromSide":"right","toNode":"mount","toSide":"bottom","label":"transition"},
+		{"id":"details-link","fromNode":"details","fromSide":"bottom","toNode":"transition","toSide":"top"},
+		{"id":"counter-link","fromNode":"counters","fromSide":"left","toNode":"transition","toSide":"right"}
+	]
+}

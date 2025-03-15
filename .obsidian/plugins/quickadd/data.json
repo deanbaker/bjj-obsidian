@@ -1,0 +1,70 @@
+{
+  "choices": [
+    {
+      "id": "1a2b3c4d",
+      "name": "New Training Log",
+      "type": "Template",
+      "command": false,
+      "templatePath": "_templates/training-log-template.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{DATE:YYYY-MM-DD}}-training"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": ["training-logs"],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      }
+    },
+    {
+      "id": "2b3c4d5e",
+      "name": "New Position Note",
+      "type": "Template",
+      "command": false,
+      "templatePath": "_templates/position-template.md",
+      "fileNameFormat": {
+        "enabled": false
+      },
+      "folder": {
+        "enabled": true,
+        "folders": ["positions"],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      }
+    },
+    {
+      "id": "3c4d5e6f",
+      "name": "New Technique Note",
+      "type": "Template",
+      "command": false,
+      "templatePath": "_templates/technique-template.md",
+      "fileNameFormat": {
+        "enabled": false
+      },
+      "folder": {
+        "enabled": true,
+        "folders": ["techniques"],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      }
+    },
+    {
+      "id": "4d5e6f7g",
+      "name": "New Competition Note",
+      "type": "Template",
+      "command": false,
+      "templatePath": "_templates/competition-template.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{DATE:YYYY-MM-DD}}-competition"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": ["competition"],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      }
+    }
+  ]
+}

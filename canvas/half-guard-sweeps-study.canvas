@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"resource","type":"file","file":"resources/half-guard-sweeps.md","x":0,"y":0,"width":250,"height":150},
+		{"id":"half-guard","type":"file","file":"positions/guard/half-guard.md","x":-300,"y":0,"width":200,"height":100},
+		{"id":"videos","type":"text","text":"# 🎥 Video Study\n- Core concepts\n- Competition examples\n- Troubleshooting\n- Solo drills","x":300,"y":-200,"width":200,"height":150},
+		{"id":"problems","type":"text","text":"# ⚠️ Common Problems\n- Getting flattened\n- Losing underhook\n- Counter prevention\n- Recovery patterns","x":300,"y":200,"width":200,"height":150},
+		{"id":"training","type":"text","text":"# 🏋️ Training Focus\n- Daily drills\n- Partner work\n- Success tracking\n- Video review","x":0,"y":200,"width":200,"height":150},
+		{"id":"study-path","type":"text","text":"# 📚 Study Path\n1. Watch concept videos\n2. Practice solo drills\n3. Partner drilling\n4. Live implementation\n5. Review & adjust","x":-300,"y":-200,"width":200,"height":150},
+		{"id":"title","type":"text","text":"# Half Guard Sweeps Study Guide\n\nResource organization and study path","x":-500,"y":-420,"width":300,"height":100}
+	],
+	"edges":[
+		{"id":"pos-res","fromNode":"half-guard","fromSide":"right","toNode":"resource","toSide":"left","label":"study material"},
+		{"id":"res-vid","fromNode":"resource","fromSide":"right","toNode":"videos","toSide":"left","label":"watch"},
+		{"id":"res-prob","fromNode":"resource","fromSide":"right","toNode":"problems","toSide":"left","label":"solve"},
+		{"id":"res-train","fromNode":"resource","fromSide":"bottom","toNode":"training","toSide":"top","label":"practice"},
+		{"id":"study-res","fromNode":"study-path","fromSide":"right","toNode":"resource","toSide":"top","label":"follow"}
+	],
+	"groups":[
+		{
+			"id":"implementation",
+			"title":"Implementation Path",
+			"nodes":["videos","problems","training"]
+		}
+	]
+}
