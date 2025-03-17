@@ -1,0 +1,49 @@
+{
+  "folder_structure": {
+    "description": "Basic organization of the vault",
+    "folders": {
+      "_templates": "Template files for different note types",
+      "positions": "Position studies and details",
+      "techniques": "Specific technique breakdowns",
+      "training-logs": "Daily training session notes",
+      "competition": "Competition preparation and reviews",
+      "resources": "Study materials and references",
+      "canvas": "Visual maps of positions and systems"
+    }
+  },
+  "required_plugins": {
+    "core": [
+      "Templates",
+      "Tags pane",
+      "Canvas",
+      "Daily notes"
+    ],
+    "community": [
+      {
+        "name": "Templater",
+        "purpose": "Advanced template functionality",
+        "required": true
+      },
+      {
+        "name": "Dataview",
+        "purpose": "Queries and dashboards",
+        "required": true
+      },
+      {
+        "name": "Calendar",
+        "purpose": "Training log organization",
+        "required": false
+      },
+      {
+        "name": "Media Extended",
+        "purpose": "Video embeds",
+        "required": false
+      },
+      {
+        "name": "Image Toolkit",
+        "purpose": "Better image handling",
+        "required": false
+      }
+    ]
+  }
+}

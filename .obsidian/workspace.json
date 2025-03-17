@@ -11,17 +11,33 @@
             "id": "fb4729ce37f7b6ea",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "canvas/half-guard-system-grid.canvas",
-                "viewState": {
-                  "x": 107.25777027027031,
-                  "y": 120.88057432432439,
-                  "zoom": -0.37926126995331405
+                "file": "positions/open-guard/RDLR.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "RDLR"
+            }
+          },
+          {
+            "id": "fdaf365571813948",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "BJJ Kanban.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false
+                  ]
                 }
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "half-guard-system-grid"
+              "icon": "lucide-trello",
+              "title": "BJJ Kanban"
             }
           }
         ]
@@ -56,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#training",
+                "query": "tag:#collar-tie",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -116,12 +132,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "canvas/half-guard-system-grid.canvas",
+                "file": "positions/half-guard/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from half-guard-system-grid"
+              "title": "Outgoing links from Untitled"
             }
           },
           {
@@ -197,36 +213,42 @@
   },
   "active": "fb4729ce37f7b6ea",
   "lastOpenFiles": [
-    "canvas/navigation-guide.canvas",
-    "canvas/position-map.canvas",
-    "canvas/side-control-mount-transition.canvas",
-    "training-logs/2025-03-15-training.md",
-    "canvas/test-navigation.canvas",
-    "Untitled Kanban.md",
-    "README.md",
-    "dashboard.md",
-    "_templates/training-log-template.md",
-    "main-positions.md",
     "techniques/transitions/side-control-to-mount.md",
+    "_templates/position-template.md",
+    "_templates/training-log-template.md",
+    "training-logs/2025-03-17-training.md",
+    "positions/open-guard/RDLR.md",
+    "positions/guard/half-guard.md",
+    "positions/half-guard/Untitled.md",
+    "BJJ Kanban.md",
+    "positions/open-guard",
+    "positions/guard/closed-guard.md",
+    "positions/guard/Untitled.md",
+    "positions/guard/RDLR.md",
     "_templates/technique-template.md",
+    "Dashboard.md",
+    "resources/half-guard-sweeps.md",
+    "positions/half-guard",
+    "training-logs/2025-03-15-training.md",
+    "positions/back-control/back-control.md",
+    "canvas/half-guard-system-grid.canvas",
+    "README.md",
+    "positions/guard/Stocks.md",
+    "canvas/position-map.canvas",
+    "canvas/navigation-guide.canvas",
+    "_templates/competition-template.md",
     "_templates/add-partner-details.md",
+    "_templates/update-review-date.md",
+    "positions/guard/stocks.md",
+    "canvas/side-control-mount-transition.canvas",
+    "canvas/test-navigation.canvas",
+    "main-positions.md",
     "training-logs/Untitled 1.md",
     "Untitled.md",
-    "positions/back-control/back-control.md",
     "Untitled 1.md",
-    "_templates/resource-template.md",
-    "resources/half-guard-sweeps.md",
-    "_templates/competition-template.md",
-    "canvas/half-guard-system-grid.canvas",
     "canvas/half-guard-system.canvas",
     "canvas/half-guard-sweeps-study.canvas",
     "canvas/main-positions.canvas",
-    "positions/guard/closed-guard.md",
-    "positions/guard/half-guard.md",
-    "positions/side-control/side-control.md",
-    "positions/mount/mount.md",
-    "Welcome.md",
-    "_templates/position-template.md",
     "canvas",
     "resources",
     "competition",
@@ -234,8 +256,6 @@
     "techniques/transitions",
     "techniques/sweeps",
     "techniques/submissions",
-    "techniques",
-    "positions/side-control",
-    "positions/mount"
+    "techniques"
   ]
 }

@@ -17,6 +17,10 @@
     {
       "folder": "training-logs",
       "template": "_templates/training-log-template.md"
+    },
+    {
+      "folder": "positions",
+      "template": "_templates/position-template.md"
     }
   ],
   "enable_file_templates": false,

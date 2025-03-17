@@ -1,0 +1,48 @@
+{
+  "hints": [
+    {
+      "type": "template_locations",
+      "description": "Template files are in _templates/ and include training-log-template.md, position-template.md, technique-template.md, and competition-template.md",
+      "context": "When asked to modify or create templates"
+    },
+    {
+      "type": "folder_structure",
+      "description": "BJJ notes are organized in folders: training-logs/, positions/, techniques/, competition/, resources/, and canvas/",
+      "context": "When asked about note organization or where to save files"
+    },
+    {
+      "type": "training_log_format",
+      "description": "Training logs use YYYY-MM-DD-training.md format and include class type, instructor, and rolling partner details",
+      "context": "When discussing training logs or daily entries"
+    },
+    {
+      "type": "dashboard_queries",
+      "description": "The dashboard.md file contains dataview queries for recent notes, tag overview, and quick stats",
+      "context": "When asked about statistics or overview of the vault"
+    },
+    {
+      "type": "canvas_maps",
+      "description": "Position relationships are mapped in canvas files: main-positions.canvas, half-guard-system.canvas, and others",
+      "context": "When discussing technique relationships or system visualization"
+    },
+    {
+      "type": "templater_usage",
+      "description": "Templater is used for date automation, file naming, and interactive prompts like class type selection and partner details",
+      "context": "When working with templates or automation"
+    },
+    {
+      "type": "tag_conventions",
+      "description": "Uses structured tagging for positions (#position, #guard, etc), training types (#gi, #nogi), and progress tracking (#need-work, #solid)",
+      "context": "When discussing organization or searching notes"
+    },
+    {
+      "type": "review_system",
+      "description": "Position notes include review tracking with dates and history, updated via template button",
+      "context": "When discussing position study or review process"
+    }
+  ],
+  "vault_type": "bjj_training",
+  "primary_tools": ["Templater", "Dataview", "Canvas"],
+  "key_files": ["dashboard.md", "main-positions.canvas", "half-guard-system.canvas"],
+  "last_updated": "2025-03-17"
+}
