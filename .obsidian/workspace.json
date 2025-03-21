@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "positions/open-guard/RDLR.md",
+                "file": "training-logs/2025-03-20-training.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RDLR"
+              "title": "2025-03-20-training"
             }
           },
           {
@@ -213,14 +213,18 @@
   },
   "active": "fb4729ce37f7b6ea",
   "lastOpenFiles": [
+    "training-logs/2025-03-18-training.md",
+    "training-logs/2025-03-20-training.md",
+    "positions/mount/Untitled.md",
+    "training-logs/Untitled",
+    "BJJ Kanban.md",
+    "positions/open-guard/RDLR.md",
     "techniques/transitions/side-control-to-mount.md",
     "_templates/position-template.md",
     "_templates/training-log-template.md",
     "training-logs/2025-03-17-training.md",
-    "positions/open-guard/RDLR.md",
     "positions/guard/half-guard.md",
     "positions/half-guard/Untitled.md",
-    "BJJ Kanban.md",
     "positions/open-guard",
     "positions/guard/closed-guard.md",
     "positions/guard/Untitled.md",
@@ -243,9 +247,6 @@
     "canvas/side-control-mount-transition.canvas",
     "canvas/test-navigation.canvas",
     "main-positions.md",
-    "training-logs/Untitled 1.md",
-    "Untitled.md",
-    "Untitled 1.md",
     "canvas/half-guard-system.canvas",
     "canvas/half-guard-sweeps-study.canvas",
     "canvas/main-positions.canvas",
@@ -255,7 +256,6 @@
     "training-logs",
     "techniques/transitions",
     "techniques/sweeps",
-    "techniques/submissions",
-    "techniques"
+    "techniques/submissions"
   ]
 }
